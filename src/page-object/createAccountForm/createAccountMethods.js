@@ -122,7 +122,12 @@ class createAccountMethods extends BasePage{
     }
 
 
-
+    async doSignout(){
+        
+        await WaitHelper.waitElementDisplayed(createAccountElements.elements.singnout());
+        await this.click(createAccountElements.elements.singnout())
+        
+    }
 
 
 }

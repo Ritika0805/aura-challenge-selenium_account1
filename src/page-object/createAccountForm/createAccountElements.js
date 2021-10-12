@@ -93,6 +93,9 @@ class createAccountElements extends BasePage{
             },
             getTitleAcc(){
                 return driver.findElement(By.xpath(attr.titleMyAcc));
+            },
+            singnout(){
+                return driver.findElement(By.xpath(attr.signout))
             }
 
         }

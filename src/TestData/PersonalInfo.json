@@ -1,0 +1,43 @@
+[
+{
+    "dataEmail": "ritik767.ra1@def.com",
+            "dataPassword": "123456",
+            "ftitle":"Mr",
+            "fName":"abc",
+            "lName":"def",
+            "day":"8",
+            "month":"1",
+            "year":"2000",
+            "company":"XYZ.abc",
+            "address":"House No.1",
+            "address2":"Street A, Lnd",
+            "city":"Ldn",
+            "state":"Georgia",
+            "code":"12345",
+            "homePhone":"546876",
+            "mobilePhone":"12345678",
+            "myAddressAlias":"Home"
+
+},
+{
+    "dataEmail": "ritik9803.ra1@abc.com",
+    "dataPassword": "123456",
+    "title":"Mr",
+    "fName":"abc",
+    "lName":"def",
+    "day":"8",
+    "month":"1",
+    "year":"2000",
+    "company":"XYZ.abc",
+    "address":"House No.1",
+    "address2":"Street A, Lnd",
+    "city":"Ldn",
+    "state":"Georgia",
+    "code":"12345",
+    "homePhone":"546876",
+    "mobilePhone":"12345678",
+    "myAddressAlias":"Home"
+
+}
+
+]

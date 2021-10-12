@@ -1,3 +1,4 @@
+
 class createAccountConstant{
     get attributes(){
         return{
@@ -25,7 +26,8 @@ class createAccountConstant{
             aliasAddress:"alias",
             registerButton:"button[id='submitAccount'] span",
             welcomeMessage:'//p[@class="info-account"]',
-            titleMyAcc:'//title'
+            titleMyAcc:'//title',
+            signout:'//a[@title="Log me out"]'
         }
     }
 }

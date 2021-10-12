@@ -12,7 +12,7 @@ const options = new Chrome.Options();
   options.addArguments("--disable-default-apps");
   options.addArguments("--disable-infobars");
   options.addArguments("--disable-extensions");
-  //options.headless();
+ // options.headless();
 
   const service = new Chrome.ServiceBuilder(chromeDriver.binPath());
 
@@ -29,7 +29,7 @@ class BasePage {
 
 
     async getTitle(){
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
        return driver.getTitle();
        
     }
