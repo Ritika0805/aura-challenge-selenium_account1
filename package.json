@@ -20,10 +20,26 @@
     "testTimeout": 90000,
     "testEnvironment": "node",
     "maxConcurrency": 3,
-    "verbose": true
+    "verbose": true,
+    "coverageReporters": [
+      "text",
+      "cobertura"
+    ],
+    "reporters": [
+      "default",
+      ["jest-html-reporters", {
+        "publicPath": "./html-report",
+        "filename": "report.html",
+        "expand": true,
+        "openReport": true
+      }]
+    ]
   },
   "scripts": {
     "format:fix": "prettier --write src/**/*.js",
-    "test": "jest"
+    "test": "jest --coverage --coverageDirectory=output/coverage/jest"
+  },
+  "devDependencies": {
+    "jest-html-reporters": "^2.1.6"
   }
 }

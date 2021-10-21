@@ -38,7 +38,7 @@ describe("Aura Code Challenge - Create User Account Tests", () => {
     
     Logger.stepNumber(2);
     Logger.step('Typing E-mail');
-    const email = await commonMethod.typeEmail(dataEmail)
+    const email = await commonMethod.typeEmail(Date.now()+"@Email.com");
     Logger.verification('The inserted E-mail should be contained in E-mail field');
     await commonMethod.verifyTextInEmailField(email);
 
